@@ -1,0 +1,472 @@
+body{
+
+background-color : black;
+background : url('images/mainBG.jpg');
+
+}
+
+footer{
+
+color : white;
+-webkit-transform : translateY(650px);
+position : absolute;
+font-size : 22px;
+
+}
+
+#full{
+
+clear : left;
+position : absolute;
+width : 100%;	
+height : 100%;
+-webkit-perspective: 200px;
+-webkit-transform : scale(0.50) translateY(0px) ;
+-webkit-transition : 5s;
+
+
+}
+
+#full:hover{
+
+-webkit-transform : rotateX(60deg) scale(0.80) translateZ(-60px) translateY(-50px);
+
+}
+
+
+#grp1{
+
+position : absolute;
+height : 100%;
+width : 100%;
+margin : 0 auto 0 auto;
+-webkit-transform-style : preserve-3d;
+
+
+}
+
+#celes1{
+
+position : relative;
+background : url('images/Sun.gif');
+height : 150px;
+width : 150px;
+border-radius : 75px;
+margin : 250px auto 0 auto;
+
+}
+
+
+
+#grp2{
+
+position : relative;
+height : 300px;
+width : 300px;
+margin : 175px auto 0 auto;
+
+}
+
+#fake2{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :300px;
+width : 300px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 150px;
+
+
+}
+
+#orbit2{
+
+margin : 32.5px 32.5px;
+position : absolute;
+height :235px;
+width : 235px;
+-webkit-animation : orbit 3s infinite linear;
+
+
+}
+
+#celes2{
+
+position : relative;
+background-image: url('images/Mercury.gif');
+height : 20px;
+width : 20px;
+border-radius : 50%;
+margin : 0px;
+-webkit-animation : resist 3s infinite linear;
+
+
+}
+
+#grp3{
+
+position : absolute;
+height : 400px;
+width : 400px;
+-webkit-transform : translate(-50px,-50px);
+
+
+}
+
+#fake3{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :400px;
+width : 400px;
+border-radius : 200px;
+border : 3px dashed rgba(88,88,88,0.6);
+
+}
+
+#orbit3{
+
+margin : 45px 45px;
+position : absolute;
+height :310px;
+width : 310px;
+-webkit-animation :orbit 4s infinite linear;
+
+}
+
+#celes3{
+
+position : relative;
+background-image:url('images/Venus.gif');
+height : 25px;
+width : 25px;
+border-radius : 50%;
+margin : 0px;
+-webkit-animation : resist 4s infinite linear;
+
+}
+
+#grp4{
+
+position : absolute;
+height : 500px;
+width : 500px;
+-webkit-transform : translate(-100px,-100px);
+
+}
+
+#fake4{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :500px;
+width : 500px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 50%;
+
+}
+
+#orbit4{
+
+margin : 60px 60px;
+position : absolute;
+height :380px;
+width : 380px;
+-webkit-animation : orbit 5s infinite linear;
+
+}
+
+#celes4{
+
+position : relative;
+background-image:url('images/Earth.gif');
+height : 25px;
+width : 25px;
+border-radius : 50%;
+margin : 0px;
+-webkit-animation : resist 5s infinite linear;
+
+}
+
+#grp5{
+
+position : absolute;
+height : 600px;
+width : 600px;
+-webkit-transform : translate(-150px,-150px);
+
+
+}
+
+#fake5{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :600px;
+width : 600px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 50%;
+
+}
+
+#orbit5{
+
+margin : 75px 75px;
+position : absolute;
+height :450px;
+width : 450px;
+-webkit-animation : orbit 6s infinite linear;
+
+
+}
+
+#celes5{
+
+position : relative;
+background-image : url('images/Mars.gif');
+height : 25px;
+width : 25px;
+border-radius : 50%;
+margin : 0px;
+-webkit-animation : resist 6s infinite linear;	
+
+}
+
+#grp6{
+
+position : absolute;
+height : 750px;
+width : 750px;
+-webkit-transform : translate(-225px,-225px);
+
+}
+
+#fake6{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :750px;
+width : 750px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 50%;
+
+}
+
+#orbit6{
+
+margin : 70px 70px;
+position : absolute;
+height :610px;
+width : 610px;
+-webkit-animation : orbit 7s infinite linear;
+
+
+}
+
+#celes6{
+
+position : relative;
+background-image:url('images/Jupiter.gif');
+height : 75px;
+width : 75px;
+border-radius : 50%;
+margin : 0px;
+-webkit-animation : resist 7s infinite linear;
+}
+
+
+#grp7{
+
+position : absolute;
+height : 900px;
+width : 900px;
+-webkit-transform : translate(-300px,-300px);
+
+}
+
+#fake7{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :900px;
+width : 900px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 50%;
+
+}
+
+#orbit7{
+
+margin : 107.5px 107.5px;
+position : absolute;
+height :685px;
+width : 685px;
+-webkit-animation : orbit 8s infinite linear;
+
+}
+
+#celes7{
+
+position : relative;
+background-image :url('images/Saturn.gif');
+height : 45px;
+width : 45px;
+border-radius : 50%;
+margin : 0px;	
+-webkit-animation : resist 8s infinite linear;
+}
+
+#grp8{
+
+position : absolute;
+height : 1050px;
+width : 1050px;
+-webkit-transform : translate(-375px,-375px);
+
+}
+
+#fake8{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :1050px;
+width : 1050px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 50%;
+
+}
+
+#orbit8{
+
+margin : 140px 140px;
+position : absolute;
+height :770px;
+width : 770px;	
+-webkit-transform : rotate(45deg);
+-webkit-animation : orbit 9s infinite linear;
+}
+
+#celes8{
+
+position : relative;
+background-image:url('images/Uranus.gif');
+height : 25px;
+width : 25px;
+border-radius : 50%;
+margin : 0px;
+
+}
+
+#grp9{
+
+position : absolute;
+height : 1150px;
+width : 1150px;
+-webkit-transform : translate(-425px,-425px);
+
+}
+
+#fake9{
+
+margin : 0px 0px 0px 0px;
+position : absolute;
+height :1150px;
+width : 1150px;
+border : 3px dashed rgba(88,88,88,0.6);
+border-radius : 50%;
+
+
+}
+
+#orbit9{
+
+margin : 155px 155px;
+position : absolute;
+height :840px;
+width : 840px;	
+-webkit-animation : orbit 11s infinite linear;
+
+}
+
+#celes9{
+
+position : relative;
+background-image:url('images/Neptune.gif');
+height : 25px;
+width : 25px;
+border-radius : 50%;
+margin : 0px;
+-webkit-animation : resist 11s infinite linear;
+
+}
+
+#info{
+
+float : right;
+color : white;
+text-align : center;
+width : 50%;
+height :100%;
+
+}
+
+#i1{
+
+	background-color : blue;
+	width : 20%; 
+	float : left;
+}
+
+@-webkit-keyframes orbit{
+
+
+from{
+
+-webkit-transform : rotate(0deg);
+
+}
+
+to{
+
+-webkit-transform : rotate(360deg);
+
+}
+
+
+}
+
+
+@-webkit-keyframes resist{
+
+0%{
+
+-webkit-transform : rotate(0deg);
+
+}
+
+
+25%{
+
+-webkit-transform : rotate(-90deg);
+
+}
+
+50%{
+
+-webkit-transform : rotate(-180deg);
+}
+
+75%{
+
+-webkit-transform : rotate(-270deg);
+}
+
+100% {
+
+-webkit-transform : rotate(-360deg);
+}
+
+
+}
+
+
